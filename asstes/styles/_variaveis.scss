@@ -1,0 +1,22 @@
+:root{
+    --text-color: #3A3F4D;
+    --title-color: #21242C;
+    --primary-color: #3D537C;
+    --hover-color: #B5B5B5;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.title-color{
+    color: var(--title-color);
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.hover-color{
+    color: var(--hover-color);
+}
