@@ -1,0 +1,23 @@
+@import './_tipografia.scss';
+@import './_variaveis.scss';
+@import './_main.scss';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}

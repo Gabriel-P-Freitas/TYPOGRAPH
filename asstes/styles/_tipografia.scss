@@ -1,0 +1,31 @@
+p{
+    font-family: "Vollkorn", serif;
+    &.small{
+        font-size: 21px;
+        line-height: 140%;
+    }
+    &.medium{
+        font-size: 30px;
+        line-height: 140%;
+    }
+    &.large{
+        font-size: 46px;
+        line-height: 120%;
+    }
+}
+
+h1, h2, h3{
+    font-family: "Suez One", serif;
+}
+
+h1{
+    font-size: 150px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 32px;
+}
