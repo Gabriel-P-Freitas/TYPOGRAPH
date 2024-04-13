@@ -1,33 +1,25 @@
-p {
-  font-family: "Vollkorn", serif;
-}
-p.small {
-  font-size: 21px;
-  line-height: 140%;
-}
-p.medium {
-  font-size: 30px;
-  line-height: 140%;
-}
-p.large {
-  font-size: 46px;
-  line-height: 120%;
+* {
+  box-sizing: border-box;
 }
 
-h1, h2, h3 {
-  font-family: "Suez One", serif;
+body {
+  color: var(--text-color);
 }
 
-h1 {
-  font-size: 150px;
+a {
+  display: inline-block;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
-h2 {
-  font-size: 60px;
+button {
+  border: none;
+  background-color: transparent;
 }
 
-h3 {
-  font-size: 32px;
+h1, h2, h3, h4, h5, h6, figure, p {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 :root {
@@ -35,6 +27,7 @@ h3 {
   --title-color: #21242C;
   --primary-color: #3D537C;
   --hover-color: #B5B5B5;
+  --quote-color: #8F98B0;
 }
 
 .text-color {
@@ -53,23 +46,43 @@ h3 {
   color: var(--hover-color);
 }
 
+p {
+  font-family: "Vollkorn", serif;
+}
+p.small {
+  font-size: 21px;
+  line-height: 140%;
+}
+p.medium {
+  font-size: 30px;
+  line-height: 140%;
+}
+p.large {
+  font-size: 46px;
+  line-height: 120%;
+}
+
+h1, h2, h3 {
+  font-family: "Suez One", serif;
+  color: var(--title-color);
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
 .hero {
-  height: 765px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 766px;
   background-color: #F6F6F6;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-
-button {
-  border: none;
-  background-color: transparent;
 }/*# sourceMappingURL=style.css.map */

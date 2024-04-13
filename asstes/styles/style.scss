@@ -1,15 +1,20 @@
-@import './_tipografia.scss';
-@import './_variaveis.scss';
-@import './_main.scss';
+@mixin flexCenter($hg){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $hg;
+}
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
+body{
+    color: var(--text-color);
+}
 a{
     display: inline-block;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -17,3 +22,13 @@ button{
     border: none;
     background-color: transparent;
 }
+
+h1, h2, h3, h4, h5, h6, figure, p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@import './_variaveis.scss';
+@import './_tipografia.scss';
+@import './_main.scss';
+@import './_hero.scss'
