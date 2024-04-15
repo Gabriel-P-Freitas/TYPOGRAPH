@@ -1,0 +1,13 @@
+.section-classificacao{
+    @include flexCenter(926px);
+    background-color: #F6F6F6;
+    ul{
+        column-gap: 2rem;
+    }
+    .card-font{
+        height: 28rem;
+        .write-font{
+            height: 11.5rem;
+        }
+    }
+}

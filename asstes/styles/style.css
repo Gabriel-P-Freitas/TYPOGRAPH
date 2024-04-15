@@ -17,9 +17,15 @@ button {
   background-color: transparent;
 }
 
-h1, h2, h3, h4, h5, h6, figure, p {
+h1, h2, h3, h4, h5, h6, figure, p, ul {
   margin: 0 !important;
-  padding: 0 !important;
+}
+
+.max-content {
+  height: -moz-max-content;
+  height: max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 :root {
@@ -49,15 +55,18 @@ h1, h2, h3, h4, h5, h6, figure, p {
 p {
   font-family: "Vollkorn", serif;
 }
-p.small {
+
+.small {
   font-size: 21px;
   line-height: 140%;
 }
-p.medium {
+
+.medium {
   font-size: 30px;
   line-height: 140%;
 }
-p.large {
+
+.large {
   font-size: 46px;
   line-height: 120%;
 }
@@ -81,8 +90,34 @@ h3 {
 
 .hero {
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 766px;
   background-color: #F6F6F6;
+}
+.hero .text-hero {
+  width: 52%;
+}
+
+.main-leitura {
+  max-width: 78.25rem;
+}
+.main-leitura .section-leitura {
+  max-width: 65rem;
+}
+
+.section-classificacao {
+  display: flex;
+  align-items: center;
+  height: 926px;
+  background-color: #F6F6F6;
+}
+.section-classificacao ul {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.section-classificacao .card-font {
+  height: 28rem;
+}
+.section-classificacao .card-font .write-font {
+  height: 11.5rem;
 }/*# sourceMappingURL=style.css.map */

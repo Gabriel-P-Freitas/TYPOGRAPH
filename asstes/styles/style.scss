@@ -1,6 +1,6 @@
+// <GLOBAL CLASS>
 @mixin flexCenter($hg){
     display: flex;
-    justify-content: center;
     align-items: center;
     height: $hg;
 }
@@ -23,12 +23,22 @@ button{
     background-color: transparent;
 }
 
-h1, h2, h3, h4, h5, h6, figure, p{
+h1, h2, h3, h4, h5, h6, figure, p, ul{
     margin: 0 !important;
-    padding: 0 !important;
 }
 
-@import './_variaveis.scss';
+.max-content {
+    height: max-content;
+    width: max-content
+}
+// </GLOBAL CLASS>
+
+@import './colors';
+
 @import './_tipografia.scss';
+
+@import './_hero.scss';
+
 @import './_main.scss';
-@import './_hero.scss'
+
+@import './classificacao.scss';

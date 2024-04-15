@@ -1,4 +1,8 @@
 .hero{
     @include flexCenter(766px);
     background-color: #F6F6F6;
+    .text-hero{
+        width: 52%;
+    }
 }
+
