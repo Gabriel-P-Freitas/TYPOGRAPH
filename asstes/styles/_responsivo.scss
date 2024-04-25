@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .card-font{
+        width: 75% !important;
+    }
+}
+@media (max-width: 576px) {
+    .section-leitura{
+        section:nth-of-type(even){
+            flex-direction: column;
+        }
+        section:nth-of-type(odd){
+            flex-direction: column-reverse;
+        }
+        div{
+            max-width: 100%;
+        }
+    }
+        
+    
+}

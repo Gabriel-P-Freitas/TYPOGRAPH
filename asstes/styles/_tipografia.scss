@@ -6,12 +6,12 @@ p{
     line-height: 140%;
 }
 .medium{
-    font-size: 30px;
+    font-size: clamp(1.125rem, 3vw, 1.875rem);
     line-height: 140%;
 }
 
 .large{
-    font-size: 46px;
+    font-size: clamp(1.5rem, 4vw, 2.875rem);
     line-height: 120%;
 }
 h1, h2, h3{
@@ -20,13 +20,13 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 150px;
+    font-size: clamp(3.375rem, 12vw, 9.375rem);
 }
 
 h2{
-    font-size: 60px;
+    font-size: clamp(2.125rem, 5vw, 3.75rem);
 }
 
 h3{
-    font-size: 32px;
+    font-size: 2rem;
 }
