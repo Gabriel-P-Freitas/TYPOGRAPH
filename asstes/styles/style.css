@@ -1,3 +1,4 @@
+/* <GLOBAL CLASS> */
 * {
   box-sizing: border-box;
 }
@@ -28,6 +29,7 @@ h1, h2, h3, h4, h5, h6, figure, p, ul {
   width: max-content;
 }
 
+/* </GLOBAL CLASS> */
 :root {
   --text-color: #3A3F4D;
   --title-color: #21242C;

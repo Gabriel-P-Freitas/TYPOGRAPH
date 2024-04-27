@@ -1,4 +1,4 @@
-// <GLOBAL CLASS>
+/* <GLOBAL CLASS> */
 @mixin flexCenter($hg){
     display: flex;
     align-items: center;
@@ -31,9 +31,9 @@ h1, h2, h3, h4, h5, h6, figure, p, ul{
     height: max-content;
     width: max-content
 }
-// </GLOBAL CLASS>
+/* </GLOBAL CLASS> */
 
-@import './colors';
+@import './colors.scss';
 
 @import './_tipografia.scss';
 
