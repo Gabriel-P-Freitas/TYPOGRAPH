@@ -8,6 +8,9 @@ p{
 .medium{
     font-size: clamp(1.125rem, 3vw, 1.875rem);
     line-height: 140%;
+    &.medium-sm{
+        font-size: 1.875rem;
+    }
 }
 
 .large{

@@ -67,6 +67,9 @@ p {
   font-size: clamp(1.125rem, 3vw, 1.875rem);
   line-height: 140%;
 }
+.medium.medium-sm {
+  font-size: 1.875rem;
+}
 
 .large {
   font-size: clamp(1.5rem, 4vw, 2.875rem);
@@ -100,7 +103,7 @@ h3 {
   background-color: #F6F6F6;
 }
 .hero .text-hero {
-  width: 52%;
+  width: clamp(80%, 10vw, 52%);
 }
 
 .main-leitura {
@@ -131,6 +134,12 @@ h3 {
 @media (max-width: 768px) {
   .card-font {
     width: 75% !important;
+  }
+  .left, .right {
+    max-width: 50%;
+  }
+  .card-leitura img {
+    width: 100%;
   }
 }
 @media (max-width: 576px) {

@@ -2,6 +2,12 @@
     .card-font{
         width: 75% !important;
     }
+    .left, .right{
+        max-width: 50%;
+    }
+    .card-leitura img{
+        width: 100%;
+    }
 }
 @media (max-width: 576px) {
     .section-leitura{
