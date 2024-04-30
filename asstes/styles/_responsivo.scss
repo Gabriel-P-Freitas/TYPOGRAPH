@@ -11,6 +11,9 @@
 }
 @media (max-width: 576px) {
     .section-leitura{
+        section{
+            row-gap: 1.5rem;
+        }
         section:nth-of-type(even){
             flex-direction: column;
         }
