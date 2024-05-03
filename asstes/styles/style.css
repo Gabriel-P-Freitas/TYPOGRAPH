@@ -103,7 +103,7 @@ h3 {
   background-color: #F6F6F6;
 }
 .hero .text-hero {
-  width: clamp(80%, 10vw, 52%);
+  width: clamp(23.75rem, 50vw, 40.625rem);
 }
 
 .main-leitura {
@@ -125,6 +125,7 @@ h3 {
   overflow-x: scroll;
 }
 .section-classificacao .card-font {
+  min-width: clamp(16.875rem, 30vw, 18.75rem);
   height: 28rem;
 }
 .section-classificacao .card-font .write-font {

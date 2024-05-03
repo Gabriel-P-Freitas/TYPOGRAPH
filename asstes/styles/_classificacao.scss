@@ -6,6 +6,7 @@
         overflow-x: scroll;
     }
     .card-font{
+        min-width: clamp(16.875rem, 30vw, 18.75rem);
         height: 28rem;
         .write-font{
             height: 11.5rem;
