@@ -12,4 +12,5 @@
 - SCSS
 - BootStrap
 
-![image](https://github.com/user-attachments/assets/260de2c4-29a9-44a2-9486-dba8c388f480)
+![section hero](https://github.com/user-attachments/assets/9d58e921-bcda-4c52-a2d6-6830a5e1873a)
+
