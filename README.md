@@ -1,4 +1,5 @@
 # Typograph
+![section hero](https://github.com/user-attachments/assets/9d58e921-bcda-4c52-a2d6-6830a5e1873a)
 ### Esse é a prática Typograph, a qual fiz uma página sobre tipografia para praticar responsividade com CSS. Vejamos alguns pontos trabalhados:
 - Media Queries: Nas CSS definimos um brakpoint que é um ponto de quebra, do qual usamos isso para definir uma largura específica para o tamanho de visualização da tela (view width ou vw)
   que quando atingida é executado uma ação. A partir disso, aprendi melhor o uso do atributo media querie nas css, em que tomei como base o bootstrap para a definição de brakpoints e
@@ -12,5 +13,9 @@
 - SCSS
 - BootStrap
 
-![section hero](https://github.com/user-attachments/assets/9d58e921-bcda-4c52-a2d6-6830a5e1873a)
+Figma project - https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0
+
+![home-typograph](https://github.com/user-attachments/assets/f7fc0cc8-ac51-451c-9559-791c77fd4299)
+![mobile-typograph](https://github.com/user-attachments/assets/59f53805-c5e5-4071-92bc-fa94b87f5c60)
+
 
