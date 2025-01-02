@@ -15,7 +15,4 @@
 
 Figma project - https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0
 
-![home-typograph](https://github.com/user-attachments/assets/f7fc0cc8-ac51-451c-9559-791c77fd4299)
-![mobile-typograph](https://github.com/user-attachments/assets/59f53805-c5e5-4071-92bc-fa94b87f5c60)
-
 
