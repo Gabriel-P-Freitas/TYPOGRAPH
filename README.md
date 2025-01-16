@@ -12,6 +12,7 @@
 - CSS Responsivo
 - SCSS
 - BootStrap
+- Git e GitHub
 - Figma
 
 Figma Project - https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0
