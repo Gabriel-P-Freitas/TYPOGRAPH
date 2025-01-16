@@ -12,7 +12,8 @@
 - CSS Responsivo
 - SCSS
 - BootStrap
+- Figma
 
-Figma project - https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0
+Figma Project - https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0
 
 
