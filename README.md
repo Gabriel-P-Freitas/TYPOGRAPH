@@ -17,4 +17,6 @@
 
 Figma Project - https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0
 
+Link Project - https://gabriel-p-freitas.github.io/TYPOGRAPH/
+
 
